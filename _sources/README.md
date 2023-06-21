@@ -2,9 +2,8 @@
 
 <img src="thumbnail.svg" alt="thumbnail" width="400"/>
 
-[![nightly-build](https://github.com/ProjectPythiaCookbooks/HRRR-AWS-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythiaCookbooks/HRRR-AWS-cookbook/actions/workflows/nightly-build.yaml)
-
-[![Binder](https://binder-staging.2i2c.cloud/badge_logo.svg)](https://binder-staging.2i2c.cloud/v2/gh/ProjectPythiaCookbooks/HRRR-AWS-cookbook.git/main)
+[![nightly-build](https://github.com/ProjectPythia/HRRR-AWS-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/HRRR-AWS-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/HRRR-AWS-cookbook.git/main)
 
 In this Project Pythia Cookbook, you will access and create a map from archived data from NCEP's High-Resolution Rapid Refresh (HRRR) model, which is served in an S3 bucket on AWS.
 
@@ -25,8 +24,8 @@ Throughout this cookbook, we build on the core foundational Python material cove
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythiaCookbooks/HRRR-AWS-cookbook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythiaCookbooks/HRRR-AWS-cookbook" />
+<a href="https://github.com/ProjectPythia/HRRR-AWS-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ProjectPythia/HRRR-AWS-cookbook" />
 </a>
 
 ## Structure
@@ -48,12 +47,12 @@ Here, we **apply** the lessons learned in the foundational material to various a
 1. **Currently under development** Plot a sequence of forecast maps for the most recent run of the HRRR
 
 ## Running the Notebooks
-You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
+You can either run the notebook using [Binder](https://binder.projectpythia.org/) or on your local machine.
 
 ### Running on Binder
 
 The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://mybinder.org/), which enables the execution of a
+[Binder](https://binder.projectpythia.org/), which enables the execution of a
 Jupyter Book in the cloud. The details of how this works are not
 important for now. All you need to know is how to launch a Pythia
 Foundations book chapter via Binder. Simply navigate your mouse to
@@ -70,9 +69,9 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 ### Running on Your Own Machine
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-1. Clone the ["HRRR-AWS-cookbook"](https://github.com/ProjectPythiaCookbooks/HRRR-AWS-cookbook) repository
+1. Clone the ["HRRR-AWS-cookbook"](https://github.com/ProjectPythia/HRRR-AWS-cookbook) repository
     ```bash
-    git clone https://github.com/ProjectPythiaCookbooks/HRRR-AWS-cookbook.git
+    git clone https://github.com/ProjectPythia/HRRR-AWS-cookbook.git
     ```
 
 2. Move into the `HRRR-AWS-cookbook` directory
